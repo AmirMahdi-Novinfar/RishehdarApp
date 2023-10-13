@@ -9,12 +9,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/loading_gif_splash"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:srcCompat="@drawable/logo2" />
+        app:srcCompat="@drawable/logo_new2" />
 
     <ProgressBar
         android:id="@+id/loading_gif_splash"

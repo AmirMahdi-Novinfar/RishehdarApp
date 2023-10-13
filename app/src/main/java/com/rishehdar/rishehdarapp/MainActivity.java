@@ -14,6 +14,8 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.pushpole.sdk.PushPole;
+
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
 
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
-
+        PushPole.initialize(this,true);
         webviewamir();
 
 

@@ -22,6 +22,8 @@
         <meta-data
             android:name="com.najva.sdk.metadata.WEBSITE_ID"
             android:value="47891" />
+
+        <meta-data android:name="com.pushpole.sdk.token" android:value="PUSHPOLE_562367189459"/>
         <activity
             android:name=".SplashActivity"
             android:exported="true"
